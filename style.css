@@ -8,16 +8,27 @@ body {
     */ 
 }
 
-div, p {
+p {
     width:700px;
-    background:#ff8000;
+    background:white;
     margin:20px 50px;
-    border:10px solid #000;
-    
+        
+}
+
+/*.box{
+    position: relative;
+    top: ;
+    bottom: ;
+    right: ;
+    left: 200px ;
+}
+*/
+.hobs{
+
 }
 
 #profPhoto {
-    float:inline-start ;
+    float:left;
     border: 3px solid #000;
     width: 200px;
     margin-bottom: 10px;
@@ -34,6 +45,11 @@ button {
     height: 100px;
     width: 100px;
     margin-inline: 500px;
+}
+
+.name {
+    margin-left: 20px;
+    margin-top: 200px;
 }
 
 /*

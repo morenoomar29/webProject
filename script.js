@@ -11,7 +11,7 @@ divAdd.append(bio);
 
 const btn = document.getElementById('btn');
 btn.addEventListener('click', function() {
-    alert('I was clicked');
+    alert('I was clicked!');
 });
 
 
