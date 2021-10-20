@@ -1,7 +1,18 @@
+body {
+    background: #d1c5c5;
+    /*
+    background:url(images/logo.jpg); --> This is to add an image to the background
+    background-repeat: no-repeat; --> This is so that the background image doesn't repeat
+    background-attachment:scroll; or fixed --> This is so that the image scrolls or doesn't scrolls
+    background-position: 500px 200px; --> This is so that the image moves to the right and to the left
+    */ 
+}
+
 div, p {
     width:700px;
     background:#ff8000;
     margin:20px 50px;
+    border:10px solid #000;
     
 }
 
