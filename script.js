@@ -9,6 +9,10 @@ const bio = document.createElement("h2");
 bio.innerText="Background";
 divAdd.append(bio);
 
+const btn = document.getElementById('btn');
+btn.addEventListener('click', function() {
+    alert('I was clicked');
+});
 
 
 
