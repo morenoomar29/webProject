@@ -1,17 +1,24 @@
 body {
-    background: #d1c5c5;
+    background:#E6E6E6;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     /*
     background:url(images/logo.jpg); --> This is to add an image to the background
     background-repeat: no-repeat; --> This is so that the background image doesn't repeat
     background-attachment:scroll; or fixed --> This is so that the image scrolls or doesn't scrolls
     background-position: 500px 200px; --> This is so that the image moves to the right and to the left
+    background: ;
     */ 
+}
+
+nav {
+    background: #58ACFA ;
 }
 
 p {
     width:700px;
     background:white;
     margin:20px 50px;
+    margin-left: 200px;
         
 }
 
@@ -31,7 +38,8 @@ p {
     float:left;
     border: 3px solid #000;
     width: 200px;
-    margin-bottom: 10px;
+    margin-top: 30px;
+    margin-left: 50px;
     box-shadow: 0px 10px 20px rgba(0,0,0,0.19), 10px 10px 10px rgba(0,0,0,0.6);
     transform: scaleX(1);
 }
@@ -48,8 +56,12 @@ button {
 }
 
 .name {
-    margin-left: 20px;
-    margin-top: 200px;
+    margin-right: 600px;
+    margin-top: 50px;
+}
+
+.foot {
+    text-align: center;
 }
 
 /*
